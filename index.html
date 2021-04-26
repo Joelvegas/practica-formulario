@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Formulario HTML</title>
+</head>
+<body>
+    <main>
+        <section>
+            <article class="datos-personales">
+                <h1>Formularios</h1>
+                <form action="">
+                    <label for="nombres">Nombre y Apellido</label><br>
+                    <input type="text" name="nombres"><br>
+                    <label for="edad">Edad</label><br>
+                    <input type="number" name="edad"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email"><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password">
+                </form>
+            </article>
+            <article class="info">           
+                <h3>ocupación:</h3>
+                <form action="">
+                    <input type="radio" id="estudiante" name="ocupación" value="estudiante">
+                    <label for="ocupación">Estudiante</label><br>
+                    <input type="radio" id="profesional" name="ocupación" value="Profesional">
+                    <label for="ocupación">Profesional</label><br>
+                    <input type="radio" id="otro" name="ocupación" value="otro">
+                    <label for="ocupación">Otro</label>
+                </form>       
+                <h3>Hora de contacto:</h3>
+                <form action="">
+                    <input type="checkbox" id="mañana" name="horarios" value="mañana">
+                    <label for="horarios">A la mañana</label><br>
+                    <input type="checkbox" id="mediodía" name="horarios" value="mediodía">
+                    <label for="horarios">Al mediodía</label><br>
+                    <input type="checkbox" id="tarde" name="horarios" value="tarde">
+                    <label for="horarios">A la tarde</label>
+                </form>
+            </article>
+        </section>
+        <div class="text-area">
+            <form action="">
+                <span>Mensaje para el autor</span><br>
+                <textarea name="mensaje" id="" cols="40" rows="15"></textarea>
+            </form>
+        </div>
+
+        <div class="final">
+            <form action="">
+                <input type="checkbox" id="mas-información" name="información" value="mas-información">
+                <label for="informacion">Deseo recibir a mi mail mas información</label><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
